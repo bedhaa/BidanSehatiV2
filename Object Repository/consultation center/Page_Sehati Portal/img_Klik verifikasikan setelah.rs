@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Klik verifikasikan setelah</name>
+   <tag></tag>
+   <elementGuidId>4997f2a8-39a5-4756-9b5a-77a938c48449</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-imageselect-target']/table/tbody/tr[2]/td[2]/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rc-image-tile-33</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.google.com/recaptcha/api2/payload?p=06AF6jDqXiosTY3odrv1-A6KJCB8Y4WTrQ_WXcDvpzZ0bqkp2WJ5_0fyfjD3rKu-irbj5ADnp6hc0YC7hdYSpQZVhO58l9CUETU6b2QbIDf1oL22XSCMUPH0EQsKnfke0AkXQXDzsfQOIaX7pZdJmtAQgjUf7J4MGQidEBj3LXrJiDzM3wFxQWTbU&amp;k=6LcQglMUAAAAAIStiUCIwBtexE5Yg0UlZxSoZ8eR</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rc-imageselect-target&quot;)/table[@class=&quot;rc-imageselect-table-33&quot;]/tbody[1]/tr[2]/td[@class=&quot;rc-imageselect-tile&quot;]/div[@class=&quot;rc-image-tile-target&quot;]/div[@class=&quot;rc-image-tile-wrapper&quot;]/img[@class=&quot;rc-image-tile-33&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/consultation center/Page_Sehati Portal/iframe_html1body1div3div4ifram</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='rc-imageselect-target']/table/tbody/tr[2]/td[2]/div/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Klik verifikasikan setelah tidak ada satu pun yang tersisa'])[1]/following::img[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='sepeda'])[1]/following::img[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi'])[1]/preceding::img[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <value>(//img[contains(@src,'https://www.google.com/recaptcha/api2/payload?p=06AF6jDqXiosTY3odrv1-A6KJCB8Y4WTrQ_WXcDvpzZ0bqkp2WJ5_0fyfjD3rKu-irbj5ADnp6hc0YC7hdYSpQZVhO58l9CUETU6b2QbIDf1oL22XSCMUPH0EQsKnfke0AkXQXDzsfQOIaX7pZdJmtAQgjUf7J4MGQidEBj3LXrJiDzM3wFxQWTbU&amp;k=6LcQglMUAAAAAIStiUCIwBtexE5Yg0UlZxSoZ8eR')])[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//tr[2]/td[2]/div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>
