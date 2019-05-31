@@ -1,47 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Login</name>
+   <name>LoginSuperAdmin</name>
    <tag></tag>
-   <elementGuidId>192ffc22-0f9f-4e44-ac0f-c8051aaf14a9</elementGuidId>
+   <elementGuidId>fc701208-274c-4d63-9991-c70065a72cda</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;contentType&quot;: &quot;application/x-www-form-urlencoded&quot;,
+  &quot;contentType&quot;: &quot;multipart/form-data&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;,
   &quot;parameters&quot;: [
     {
-      &quot;name&quot;: &quot;Accept-version&quot;,
-      &quot;value&quot;: &quot;v2&quot;
+      &quot;name&quot;: &quot;identifier&quot;,
+      &quot;value&quot;: &quot;superadmin&quot;,
+      &quot;type&quot;: &quot;Text&quot;
+    },
+    {
+      &quot;name&quot;: &quot;password&quot;,
+      &quot;value&quot;: &quot;12345678&quot;,
+      &quot;type&quot;: &quot;Text&quot;
     }
   ]
 }</httpBodyContent>
-   <httpBodyType>x-www-form-urlencoded</httpBodyType>
+   <httpBodyType>form-data</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
-      <type>Main</type>
-      <value>Basic MDg1Mjc0MDM3NTEyOjAzNzUxMg==</value>
+      <value>multipart/form-data</value>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Accept-Language</name>
       <type>Main</type>
-      <value>application/json</value>
+      <value>id</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>TeleCtg-Product</name>
+      <type>Main</type>
+      <value>admin</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value></value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://staging.sehati.co/api/v2/register?username=lara&amp;phone=08197987890912</restUrl>
+   <restUrl>https://staging.telectg.co.id/api/v1/login</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
